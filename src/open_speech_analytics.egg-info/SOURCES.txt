@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/open_speech_analytics.egg-info/PKG-INFO
+src/open_speech_analytics.egg-info/SOURCES.txt
+src/open_speech_analytics.egg-info/dependency_links.txt
+src/open_speech_analytics.egg-info/top_level.txt
+src/utils/__init__.py
+src/utils/youtube_extractor.py

@@ -2,7 +2,7 @@
 
 # To-Do List para o Repositório GitHub
 
-- [ ] 1. Criar uma lista de vídeos.
+- [x] 1. Criar uma lista de vídeos.
 - [ ] 2. Gerar lista de transcrições utilizando Whisper Local.
 - [ ] 3. Elaborar lista de resumos.
 - [ ] 4. Implementar categorização multiclasse com categorias pré-definidas (Zero Shot), como Renda Fixa, Ações, etc.
@@ -35,5 +35,6 @@ projeto/
 │
 ├── requirements.txt            # Dependências do Python
 └── README.md                   # Documentação do projeto
+└── setup.py                    # Este arquivo descreverá seu pacote e como instalá-lo.
 
 
