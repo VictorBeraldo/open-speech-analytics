@@ -29,6 +29,7 @@ projeto/
 │   └── transcription/          # Scripts para transcrição com Whisper
 │
 ├── data/                       # Dados utilizados no projeto
+│   ├── links/                  # Links de videos
 │   ├── videos/                 # Vídeos para transcrição
 │   ├── transcripts/            # Transcrições geradas
 │   └── summaries/              # Resumos dos vídeos
