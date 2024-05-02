@@ -3,5 +3,5 @@ langchain_community==0.0.36
 pydub==0.25.1
 yt-dlp==2024.4.9
 torchaudio==2.3.0
-transformers==4.40.1
+transformers==4.37.2
 librosa==0.10.1

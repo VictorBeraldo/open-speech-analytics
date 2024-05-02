@@ -3,7 +3,7 @@
 # To-Do List para o Repositório GitHub
 
 - [x] 1. Criar uma lista de vídeos.
-- [ ] 2. Gerar lista de transcrições utilizando Whisper Local.
+- [x] 2. Gerar lista de transcrições utilizando Whisper Local com e sem GPU.
 - [ ] 3. Elaborar lista de resumos.
 - [ ] 4. Implementar categorização multiclasse com categorias pré-definidas (Zero Shot), como Renda Fixa, Ações, etc.
 - [ ] 5. Desenvolver gráfico de série temporal com Streamlit para visualizar as categorias.
@@ -26,12 +26,13 @@ projeto/
 │   ├── chat/                   # Códigos para o chat
 │   ├── categorization/         # Scripts para categorização
 │   ├── visualization/          # Scripts para visualizações com Streamlit
-│   └── transcription/          # Scripts para transcrição com Whisper
+│   ├── transcription/          # Scripts para transcrição com Whisper
+│   └── utils/                  # Scripts utilitários
 │
 ├── data/                       # Dados utilizados no projeto
-│   ├── links/                  # Links de videos
-│   ├── videos/                 # Vídeos para transcrição
-│   ├── transcripts/            # Transcrições geradas
+│   ├── links/                  # Links de videos em .csv
+│   ├── videos/                 # Vídeos para transcrição em .m4a
+│   ├── transcripts/            # Transcrições geradas em .csv
 │   └── summaries/              # Resumos dos vídeos
 │
 ├── requirements.txt            # Dependências do Python
