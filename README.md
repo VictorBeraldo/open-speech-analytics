@@ -4,7 +4,7 @@
 
 - [x] 1. Criar uma lista de vídeos.
 - [x] 2. Gerar lista de transcrições utilizando Whisper Local com e sem GPU.
-- [ ] 3. Elaborar lista de resumos.
+- [x] 3. Elaborar lista de resumos.
 - [ ] 4. Implementar categorização multiclasse com categorias pré-definidas (Zero Shot), como Renda Fixa, Ações, etc.
 - [ ] 5. Desenvolver gráfico de série temporal com Streamlit para visualizar as categorias.
 - [ ] 6. Desenvolver um chat que permite interação com dados e criação de novas categorias.
