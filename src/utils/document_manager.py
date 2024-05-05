@@ -1,6 +1,8 @@
 import pandas as pd
 import ast
 from langchain.schema import Document
+import os
+import shutil
 
 def save_docs_to_csv(docs, file_path):
     """Salva uma lista de documentos LangChain em um arquivo CSV."""
@@ -36,3 +38,12 @@ def load_docs_from_csv(file_path):
 
     print(f"Documentos carregados de {file_path}")
     return docs_loaded
+
+
+def delete_contents(folder_path):
+    for item in os.listdir(folder_path):
+        item_path = os.path.join(folder_path, item)
+        if os.path.isfile(item_path) or os.path.islink(item_path):
+            os.unlink(item_path)
+        elif os.path.isdir(item_path):
+            shutil.rmtree(item_path)

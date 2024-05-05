@@ -3,15 +3,17 @@
 # To-Do List para o Repositório GitHub
 
 - [x] 1. Criar uma lista de vídeos.
-- [x] 2. Gerar lista de transcrições utilizando Whisper Local com e sem GPU.
-- [x] 3. Elaborar lista de resumos.
-- [ ] 4. Implementar categorização multiclasse com categorias pré-definidas (Zero Shot), como Renda Fixa, Ações, etc.
+- [x] 2. Gerar lista de transcrições Whisper Local com ou sem GPU e por API (Document Loaders).
+- [x] 3. Elaborar lista de resumos com LangChain e LLM (Document Splitting, Summarization).
+- [ ] 4. Implementar categorização multiclasse com categorias pré-definidas, como Renda Fixa, Ações, etc (Zero Shot, Prompt Engeneering).
 - [ ] 5. Desenvolver gráfico de série temporal com Streamlit para visualizar as categorias.
-- [ ] 6. Desenvolver um chat que permite interação com dados e criação de novas categorias.
-- [ ] 7. Integrar chat com resumos usando Langchain para testar categorias por prompt.
-- [ ] 8. Feedback
+- [x] 6. Implementar banco de dados vetoriais para a base de resumos e estragtégias de busca (VectorDB, Retrieval, SelfQuery).
+- [ ] 7. Desenvolver um chat que permite interação com dados e criação de novas categorias .
+- [ ] 8. Integrar chat com resumos usando Langchain para testar categorias por prompt.
+- [ ] 9. Feedback
      - [ ] a. Implementar funcionalidade para ouvir ligações com transcrição para validar categorias.
-- [ ] 9. Escrever conclusão e incluir disclaimer.
+- [ ] 10. Extra: Utilizar Feedback para melhorar o modelo
+
 
 # Organização do Repositório
 ## Estrutura de Pastas
@@ -33,7 +35,8 @@ projeto/
 │   ├── links/                  # Links de videos em .csv
 │   ├── videos/                 # Vídeos para transcrição em .m4a
 │   ├── transcripts/            # Transcrições geradas em .csv
-│   └── summaries/              # Resumos dos vídeos
+│   ├── summaries/              # Resumos dos vídeos
+│   └── vectorDB/               # Armazenamento dos embeddings
 │
 ├── requirements.txt            # Dependências do Python
 └── README.md                   # Documentação do projeto

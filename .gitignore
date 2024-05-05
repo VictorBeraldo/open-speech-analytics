@@ -1,3 +1,6 @@
 *.pyc
 *.csv
 *.m4a
+*.pkl
+*.parquet
+*.bin
